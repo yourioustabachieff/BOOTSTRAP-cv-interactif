@@ -7,8 +7,7 @@ body{
     margin: 0%;
     color: rgb(0, 0, 0);
     width: 100%;
-    font-family: 'Mulish', sans-serif;
-    
+    font-family: 'Mulish', sans-serif;    
     
 }
 
@@ -16,61 +15,93 @@ body{
 
 
 .presentation{
-
-
-   
-   
+  
     color: white;
     background-color: rgb(0, 0, 0);
-    height: 500px;
-    
-    
-    
-   
+    height: 1000px;
 
 }
+
 
 
 
 .titre{
-
-
     
     text-align: center;
 
-
 }
+
+
 
 
 .githubIcon img{
 
     margin-top: 1%;
-
     width: 10%;
+   
 }
+
+
+
+.githubIcon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    transition: 1s;
+  }
+
+
+
+
+.arrowIcon img{
+
+    margin-top: 3%;
+
+    width: 4%;
+    
+}
+
+
+
+.arrowIcon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    transition: 1s;
+  }
+
+
+
+
 
 
 .diplome{
 
-
-    
     margin-top: 5%;
     background-color: rgba(123, 168, 189, 0.445);
-    
+    height: 1000px;
 }
+
+
+
 
 .exp{
 
-
     color: white;
     background-color: rgba(159, 174, 180, 0.445);
+    height: 1000px;
 
 }
 
 
+.skills{
+
+    height: 1000px;
+}
+
+
+
 .skills img{
-
-
     
     background-color: rgba(9, 26, 65, 0.568);
     border-radius: 8px;
@@ -80,26 +111,20 @@ body{
     margin-left: auto;
     margin-right: auto;
   
-
-
 }
 
 
 
 
-.social{
-
-
-  
+.social{  
    
     background-color: rgba(2, 5, 12, 0.747);
     color: white;
-    text-align: center;
-    
-
-  
+    text-align: center;  
 
 }
+
+
 
 .social .icon img{
 
