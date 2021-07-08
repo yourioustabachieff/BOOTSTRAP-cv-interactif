@@ -5,62 +5,28 @@ body{
 
     padding: 0%;
     margin: 0%;
-    color: white;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
     
-   
+    
 }
+
 
 
 
 .presentation{
 
 
-    
-    margin-top: 5%;
+   
+   
+    color: white;
     background-color: rgb(0, 0, 0);
+    height: 500px;
     
-
-}
-
-
-
-.diplome{
-
-
     
-    margin-top: 5%;
-    background-color: rgba(123, 168, 189, 0.445);
-
-
-}
-
-.exp{
-
-
-   
-   
-    background-color: rgba(159, 174, 180, 0.445);
-
-}
-
-
-.skills{
-
-
     
    
-    background-color: rgba(9, 26, 65, 0.568);
-
-
-}
-
-
-.social{
-
-
-  
-   
-    background-color: rgba(9, 26, 65, 0.747);
 
 }
 
@@ -69,7 +35,80 @@ body{
 .titre{
 
 
+    
     text-align: center;
 
 
 }
+
+
+.githubIcon img{
+
+    margin-top: 1%;
+
+    width: 10%;
+}
+
+
+.diplome{
+
+
+    
+    margin-top: 5%;
+    background-color: rgba(123, 168, 189, 0.445);
+    
+}
+
+.exp{
+
+
+    color: white;
+    background-color: rgba(159, 174, 180, 0.445);
+
+}
+
+
+.skills img{
+
+
+    
+    background-color: rgba(9, 26, 65, 0.568);
+    border-radius: 8px;
+    width: 20%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+
+}
+
+
+
+
+.social{
+
+
+  
+   
+    background-color: rgba(2, 5, 12, 0.747);
+    color: white;
+    text-align: center;
+    
+
+  
+
+}
+
+.social .icon img{
+
+
+    border-radius: 8px;
+    width: 4%
+}
+
+
+
+
+
