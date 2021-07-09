@@ -38,16 +38,18 @@ body{
 
     margin-top: 1%;
     width: 10%;
+    transition: 0.5s ease-in-out;
+    
    
 }
 
 
 
-.githubIcon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-    transition: 1s;
+.githubIcon:hover img{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+  
   }
 
 
@@ -58,16 +60,18 @@ body{
     margin-top: 3%;
 
     width: 4%;
+
+    transition: 0.5s;
     
 }
 
 
 
-.arrowIcon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-    transition: 1s;
+.arrowIcon:hover img{
+    -ms-transform: scale(1.4); /* IE 9 */
+    -webkit-transform: scale(1.4); /* Safari 3-8 */
+    transform: scale(1.4); 
+    
   }
 
 
@@ -96,7 +100,7 @@ body{
 
 .skills{
 
-    height: 100px;
+    height: 2000px;
 }
 
 
@@ -110,22 +114,208 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    
   
 }
 
 
 
-
-.skills .slider{
-
+/* SLIDER IMAGE HOVER */
 
 
+
+
+
+.skills .slider img{
+
+
+    
+   
 
 }
 
 
 
 
+
+.skills .slider .im1 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im1:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+
+.skills .slider .im2 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im2:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+.skills .slider .im3 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im3:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+.skills .slider .im4 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im4:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+
+.skills .slider .im5 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im5:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+.skills .slider .im6 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im6:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+.skills .slider .im7 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im7:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+.skills .slider .im8 img{
+
+
+    transition: 0.5s;
+   
+
+}
+
+
+
+.skills .slider .im8:hover img{
+
+
+    -ms-transform: scale(0.7); /* IE 9 */
+    -webkit-transform: scale(0.7); /* Safari 3-8 */
+    transform: scale(0.7); 
+    
+
+}
+
+
+
+/* FIN SLIDER IMAGE HOVER */
 
 
 
@@ -151,3 +341,15 @@ body{
 
 
 
+
+
+
+
+
+/*DEBUT SLIDER */
+
+
+
+
+
+   /* FIN SLIDER */
