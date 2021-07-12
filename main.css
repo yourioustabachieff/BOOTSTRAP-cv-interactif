@@ -7,7 +7,9 @@ body{
     margin: 0%;
     color: rgb(0, 0, 0);
     width: 100%;
-    font-family: 'Mulish', sans-serif;    
+    /* font-family: 'Mulish', sans-serif;     */
+    font-family: 'Uchen', serif;
+
     
 }
 
@@ -23,7 +25,7 @@ body{
 }
 
 
-
+/* gère le style de tous les titres sur la page */
 
 .titre{
     
@@ -32,7 +34,7 @@ body{
 }
 
 
-
+/* permt de gérer les paramètre de l'image qui mène au github  et le rétrécissement de l'image*/
 
 .githubIcon img{
 
@@ -43,7 +45,7 @@ body{
    
 }
 
-
+/* gère le l'animation de grossissement de l'image */
 
 .githubIcon:hover img{
     -ms-transform: scale(1.3); /* IE 9 */
@@ -117,6 +119,7 @@ body{
 
 }
 
+/* gère le placement, style ... des images dans la catégorie expérience */
 .expImg img{
     
     background-color: rgba(9, 26, 65, 0.568);
@@ -132,7 +135,7 @@ body{
   
 }
 
-
+/* regle les parametre d'animation des différentes images */
 
 .expImg .ima1 img{
     
@@ -269,7 +272,7 @@ body{
  */
 
 
-
+/* regle les parametre d'animation des différentes images dans les compétences */
 
 .skills .slider .im1 img{
 
