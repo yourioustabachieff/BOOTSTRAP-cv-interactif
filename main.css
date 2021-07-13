@@ -125,7 +125,7 @@ body{
     background-color: rgba(9, 26, 65, 0.568);
     border-radius: 8px;
     width: 29%;
-    
+    margin: 2%;
 
     display: block;
     margin-left: auto;
@@ -273,6 +273,14 @@ body{
 
 
 /* regle les parametre d'animation des différentes images dans les compétences */
+
+
+
+.skills .slider img{
+
+    margin-top: 1%;
+    
+}
 
 .skills .slider .im1 img{
 
@@ -461,6 +469,7 @@ body{
     color: white;
     text-align: center;  
 
+
 }
 
 
@@ -468,8 +477,10 @@ body{
 .social .icon img{
 
 
-    border-radius: 8px;
-    width: 4%
+   margin-top: 2%;
+   margin-bottom: 1%;
+   border-radius: 8px;
+   width: 4%
 }
 
 
@@ -481,10 +492,224 @@ body{
 
 
 
-/*DEBUT SLIDER */
+/* mediaquery pour téléphone */
+
+
+
+   @media screen and (max-width: 576px) {
+   
 
 
 
 
 
-   /* FIN SLIDER */
+                    
+                /* Catégorie BODY */
+
+                body{
+
+                    padding: 0%;
+                    margin: 0%;
+                    color: rgb(0, 0, 0);
+                    width: 100%;
+                    /* font-family: 'Mulish', sans-serif;     */
+                    font-family: 'Uchen', serif;
+
+                    
+                }
+
+
+                /* Catégorie entête */
+
+                .presentation{
+                
+                    color: white;
+                    background-color: rgb(0, 0, 0);
+                    height: 700px;
+
+                }
+
+
+                /* gère le style de tous les titres sur la page */
+
+                .titre{
+                    
+                    text-align: center;
+
+                }
+
+
+                /* permt de gérer les paramètre de l'image qui mène au github  et le rétrécissement de l'image*/
+
+                .githubIcon img{
+
+                    margin-top: 1%;
+                    width: 30%;
+                
+                    
+                
+                }
+
+
+
+
+                .arrowIcon img{
+
+                    margin-top: 3%;
+
+                    width: 10%;
+
+                
+                    
+                }
+
+
+
+
+
+
+                /* Catégorie formations */
+
+
+                .diplome{
+
+                    margin-top: 5%;
+                    /* background-color: rgba(123, 168, 189, 0.445); */
+                    background-color: rgb(255, 255, 255);
+                    height: 700px;
+                }
+
+
+
+
+
+                /* categorie expériences */
+
+                .exp{
+
+                    /* color: white; */
+                    /* background-color: rgba(159, 174, 180, 0.445); */
+                    color: black;
+                    background-color: rgba(81, 116, 211, 0.26);
+                    height: 1000px;
+
+
+                    
+
+                }
+
+                /* gère le placement, style ... des images dans la catégorie expérience */
+                .expImg img{
+                    
+                    background-color: rgba(9, 26, 65, 0.568);
+                    border-radius: 8px;
+                    width: 100%;
+                    
+
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    
+                
+                }
+
+
+
+
+
+
+                /* catégorie compétences */
+
+
+
+
+                .skills{
+
+                    height: 1500px;
+                }
+
+
+
+                .skills img{
+                    
+                    /* background-color: rgba(9, 26, 65, 0.568); */
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 8px;
+                    width: 50%;
+                    
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    
+                
+                }
+
+
+
+
+
+                .social{  
+                
+                    background-color: rgba(2, 5, 12, 0.747);
+                    color: white;
+                    text-align: center;  
+
+                }
+
+
+
+                .social .icon img{
+
+
+                    border-radius: 8px;
+                    width: 10%
+                }
+
+
+
+
+
+  }
+
+
+  /* fin media screen pour téléphone */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  /* mediaquery pour tablette */
+
+
+
+  /* @media screen and (max-width: 992px) {
+   
+
+
+
+
+
+
+
+
+} */
+
+
+/* fin media screen pour tablette */
